@@ -32,7 +32,7 @@ func (dll *DoubleLinkedList) DetachNode(node *DoubleLinkedListNode) {
 
 func (dll *DoubleLinkedList) AddNodeAtLast(node *DoubleLinkedListNode) {
 	if node == nil {
-		panic("Cannot add nil value to the list")
+		panic("Node is nil, Cannot add it to the list.")
 	}
 
 	if dll.Last == nil {

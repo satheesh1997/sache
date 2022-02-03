@@ -16,6 +16,9 @@ func main() {
 	cache := sache.New(cacheSize)
 	reader := bufio.NewReader(os.Stdin)
 
+	fmt.Println("SACHE - Simple LRU Cache")
+	fmt.Println()
+
 	for {
 		fmt.Print(">> ")
 
